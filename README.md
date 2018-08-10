@@ -1,6 +1,6 @@
 #### 项目需求描述
 ```text
-    1. 熟悉补偿设计模式，根据补偿模式原理，设计几个任务状态机，比如begion、pending、doing、done
+    1. 熟悉补偿设计模式，根据补偿模式原理，设计几个任务状态机，比如begin、pending、doing、done
     2. 设计相应的任务状态处理方法，比如 handleBegion、handlePending、handleDoing
     3. 支持分布式任务调度，通过 etcd 设置全局锁，保证每个任务执行由一个分布式节点来执行,否则一个任务被执行多次
     4. 使用 "github.com/gorilla/mux" 设计controller路由和RESP Api
